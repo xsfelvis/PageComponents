@@ -1,0 +1,54 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'//添加Jcenter
+apply plugin: 'maven'
+
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+
+}
+
+repositories {
+    jcenter()
+    mavenLocal()
+    mavenCentral()  // add
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+}
+
+//添加Jcenter
+publish {
+    artifactId = 'pagecomponent'//项目名称
+    userOrg = rootProject.userOrg//bintray.com用户名
+    groupId = rootProject.groupId//jcenter上的路径
+    publishVersion = rootProject.publishVersion//版本号
+    desc = rootProject.desc//描述
+    website = rootProject.website
+    licences = rootProject.licences
+}

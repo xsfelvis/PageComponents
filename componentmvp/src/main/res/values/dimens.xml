@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ResourceName">
+
+    <!-- 字体大小 -->
+
+    <dimen name="font_size_large">21sp</dimen>
+    <dimen name="font_size_x_large">22sp</dimen>
+    <!-- 听单出发、目的地文字 -->
+    <dimen name="font_size_xx_large">27sp</dimen>
+    <!-- 听单页面展示距离 -->
+    <dimen name="font_size_xxxxx_large">48sp</dimen>
+    <!-- 大字符-抢单按钮 -->
+    <dimen name="font_size_lc">34sp</dimen>
+    <!-- 中字符-页面文字 -->
+    <dimen name="font_size_ma">21sp</dimen>
+    <!-- 中字符-主要按钮文字 (加粗) -->
+    <dimen name="font_size_mc">18sp</dimen>
+    <!-- 中字符-页面通用文字 -->
+    <dimen name="font_size_md">16sp</dimen>
+    <dimen name="font_size_md_20">20sp</dimen>
+    <!-- 中字符-辅助按钮文字(加粗) -->
+    <dimen name="font_size_me">16sp</dimen>
+    <!-- 小字符-页面特殊文字 -->
+    <dimen name="font_size_sa">14sp</dimen>
+    <!-- 小字符-导航文字按钮(加粗) -->
+    <dimen name="font_size_sc">12sp</dimen>
+    <dimen name="font_size_ss">10sp</dimen>
+
+    <dimen name="margin_size_80">80sp</dimen>
+    <dimen name="margin_size_118">118dp</dimen>
+
+    <!-- 通用 -->
+    <dimen name="common_btn_confirm_height">48dp</dimen>
+    <dimen name="margin_common">16dp</dimen>
+    <dimen name="margin_txt_common">8dp</dimen>
+    <!-- dialog -->
+    <dimen name="common_dialog_button_height">54dp</dimen>
+    <dimen name="driver_sdk_dialog_text_padding_left">30dp</dimen>
+    <dimen name="driver_sdk_dialog_margin_vertical">36dp</dimen>
+    <dimen name="driver_sdk_dialog_margin_horizontal">24dp</dimen>
+    <!-- Title -->
+    <dimen name="title_height">48dp</dimen>
+    <!-- 文本字体-->
+    <dimen name="font_size_30">30sp</dimen>
+    <dimen name="font_size_14">14sp</dimen>
+    <dimen name="font_size_15">15sp</dimen>
+    <dimen name="font_size_16">16sp</dimen>
+    <dimen name="font_size_26">26sp</dimen>
+    <dimen name="font_size_20">20sp</dimen>
+    <dimen name="font_size_22">22sp</dimen>
+    <dimen name="font_size_29">29sp</dimen>
+    <dimen name="font_size_18">18sp</dimen>
+    <dimen name="font_size_24">24sp</dimen>
+    <dimen name="font_size_38">38sp</dimen>
+    <dimen name="font_size_48">48sp</dimen>
+    <!-- margin  padding  控件宽高-->
+    <dimen name="space_size_0_5">0.5dp</dimen>
+    <dimen name="space_size_1">1dp</dimen>
+    <dimen name="space_size_2">2dp</dimen>
+    <dimen name="space_size_50">50dp</dimen>
+    <dimen name="space_size_12">12dp</dimen>
+    <dimen name="space_size_5">5dp</dimen>
+    <dimen name="space_size_60">60dp</dimen>
+    <dimen name="space_size_68">68dp</dimen>
+    <dimen name="space_size_24">24dp</dimen>
+    <dimen name="space_size_25">25dp</dimen>
+    <dimen name="space_size_20">20dp</dimen>
+    <dimen name="space_size_21">21dp</dimen>
+    <dimen name="space_size_10">10dp</dimen>
+    <dimen name="space_size_74">74dp</dimen>
+    <dimen name="space_size_67">67dp</dimen>
+    <dimen name="space_size_15">15dp</dimen>
+    <dimen name="space_size_19">19dp</dimen>
+    <dimen name="space_size_18">18dp</dimen>
+    <dimen name="space_size_16">16dp</dimen>
+    <dimen name="space_size_27">27dp</dimen>
+    <dimen name="space_size_8">8dp</dimen>
+    <dimen name="space_size_7">7dp</dimen>
+    <dimen name="space_size_6">6dp</dimen>
+    <dimen name="space_size_30">30dp</dimen>
+    <dimen name="space_size_36">36dp</dimen>
+    <dimen name="space_size_35">35dp</dimen>
+    <dimen name="space_size_53">53dp</dimen>
+    <dimen name="space_size_40">40dp</dimen>
+    <dimen name="space_size_275">275dp</dimen>
+    <dimen name="space_size_33">33dp</dimen>
+    <dimen name="space_size_106">106dp</dimen>
+    <dimen name="space_size_70">70dp</dimen>
+    <dimen name="space_size_136">136dp</dimen>
+    <dimen name="space_size_82">82dp</dimen>
+    <!-- 圆角 -->
+    <dimen name="rectangle_radius_2">2dp</dimen>
+    <dimen name="rectangle_radius_8">8dp</dimen>
+</resources>
